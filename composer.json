@@ -1,0 +1,26 @@
+{
+    "name": "hasan-22/event-listener",
+    "description": "With this package, you can easily add and use event and listener to your project",
+    "keywords": [
+        "hasan",
+        "php",
+        "event",
+        "listener",
+        "event-listener"
+    ],
+    "homepage": "https://github.com/HASSAN-22/event-listener",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hasan",
+            "email": "armiaevil@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "EventListener\\": "src/"
+        }
+    }
+}
