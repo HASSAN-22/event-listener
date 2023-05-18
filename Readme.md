@@ -53,10 +53,10 @@ If you have multiple events and listeners, you can `listen` or `fire` them one a
 ```php
 \EventListener\Event::listen('event_one',function($name){
     echo "Hello $name";
-})->listen(EventTow::class, ListenerTow::class)->listen('event_three', function(){});
+})->listen(EventTwo::class, ListenerTwo::class)->listen('event_three', function(){});
 
 // Fire events
-\EventListener\Event::fire('event_one','Armia')->fire(new EventTow())->fire('event_three');
+\EventListener\Event::fire('event_one','Armia')->fire(new EventTwo())->fire('event_three');
 ```
 If you want to delete the event, do so
 ```php
